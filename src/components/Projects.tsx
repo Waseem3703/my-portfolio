@@ -30,7 +30,7 @@ const projects: ProjectItem[] = [
 const Projects = () => {
   return (
     <section id="articles" className="mb-16 text-gray-300">
-      <h2 className="text-2xl font-semibold text-white mb-6">Writings</h2>
+      <h2 className="text-2xl font-semibold text-white mb-6">Projects</h2>
       <div className="space-y-6">
         {projects.map((project, index) => (
           <div
