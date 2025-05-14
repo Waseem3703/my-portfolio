@@ -9,7 +9,7 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <>
-    <div className="relative bg-[#0a192f] min-h-screen text-white overflow-hidden">
+    <div className="relative bg-[#0d1938] min-h-screen text-white overflow-hidden">
       <MouseGlow />
       <div className="relative z-10 flex flex-col md:flex-row">
         <Sidebar />

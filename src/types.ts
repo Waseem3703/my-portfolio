@@ -4,6 +4,8 @@ export type ExperienceItem = {
     period: string;
     description: string;
     tags: string[];
+    image?: string;
+    link?: string;
   };
   export type ProjectItem = {
     title: string;

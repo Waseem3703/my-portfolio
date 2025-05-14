@@ -29,14 +29,14 @@ const projects: ProjectItem[] = [
 
 const Projects = () => {
   return (
-    <section id="articles" className="mb-16 text-gray-300">
+    <section id="projects" className="mb-16 text-gray-300">
       <h2 className="text-2xl font-semibold text-white mb-6">Projects</h2>
       <div className="space-y-6">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row gap-4 bg-[#112240] p-4 rounded-lg hover:shadow-lg 
-            transition-shadow"
+            className="flex flex-col md:flex-row gap-4 bg-transparent p-4 rounded-lg hover:bg-[#5f6f910d] 
+            transition-colors duration-500 ease-in-out cursor-pointer"
           >
             {project.image && (
               <img
@@ -65,7 +65,8 @@ const Projects = () => {
                 {project.tags.map((tag, i) => (
                   <span
                     key={i}
-                    className="bg-gray-800 text-sm px-2 py-1 rounded"
+                    className="bg-[#5f6f9127] text-sm px-2 py-1 rounded hover:bg-[#5f6f914a] 
+                    transitions-colors duration-300 ease-in-out"
                   >
                     {tag}
                   </span>
