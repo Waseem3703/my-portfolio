@@ -15,3 +15,7 @@
     transition: 400ms mask ease;
     will-change: mask;
   }
+
+  .about-font{
+    @apply mb-4 font-sans text-[16.5px] mr-20 font-normal leading-[26px] text-slate-400;
+  }

@@ -13,7 +13,7 @@ function App() {
       <MouseGlow />
       <div className="relative z-10 flex flex-col md:flex-row">
         <Sidebar />
-        <main className="ml-0 md:ml-[45%] p-6 w-full max-w-4xl mx-auto">
+        <main className="ml-0 md:ml-[47%] p-6 w-full max-w-4xl mx-auto">
           <About />
           <Experience />
           <Projects />

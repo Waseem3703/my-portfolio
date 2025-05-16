@@ -37,7 +37,7 @@ const Sidebar = () => {
 
   return (
     <aside
-      className="w-full md:w-[50%] text-white h-screen fixed flex flex-col justify-between p-20 mt-4"
+      className="w-full md:w-[50%] text-white h-screen fixed flex flex-col justify-between ml-22 mt-23"
       style={{
         backgroundColor: 'transparent',
         fontFamily: `__inter_20b187, __inter_Fallback_20b187, ui-sans-serif, system-ui, -apple-system,
@@ -48,16 +48,16 @@ const Sidebar = () => {
       {/* Top */}
       <div>
         <h1 className="text-5xl font-bold text-slate-200 leading-tight">
-          M. Waseem
+          Muhammad Waseem
         </h1>
         <p className="mt-2 text-xl text-slate-200 font-medium">
           Front End Developer
         </p>
-        <p className="mt-4 text-md text-gray-400">
-          I build accessible, pixel-perfect digital experiences for the web.
+        <p className="mt-4 about-font">
+          I build accessible, pixel-perfect digital <br/> experiences for the web.
         </p>
 
-        <nav className="ml-6 mt-20 space-y-5 text-[12px] font-semibold tracking-widest uppercase">
+        <nav className="ml-10 mt-20 space-y-5 text-[12px] font-semibold tracking-widest uppercase">
           {sections.map((id) => (
             <div key={id} className="relative">
               <span
@@ -79,7 +79,7 @@ const Sidebar = () => {
       </div>
 
       {/* Bottom Social Links */}
-      <div className="flex space-x-4 items-center pb-8">
+      <div className="flex space-x-5 items-center pb-8 mb-40">
         <a href="#" target="_blank" rel="noreferrer">
           <FaGithub className="text-[#96a6c9] text-2xl hover:text-white transition-colors duration-100" />
         </a>
