@@ -2,11 +2,11 @@ import type { ProjectItem } from "../types";
 
 const projects: ProjectItem[] = [
   {
-    title: "Build a Spotify Connected App",
+    title: "Build a Pintrest Clone App",
     description:
-      "An app that connects to Spotify and displays your playlists using the Web API. Built with React, Node, and Tailwind.",
-    tags: ["React", "Node", "Tailwind", "Spotify API"],
-    image: "/images/spotify-app.png", // optional, add your images here
+      "A pinterest Clone, which is full stack. Built with React, Node, MongoDB, Express and Tailwind.",
+    tags: ["React", "Node", "Tailwind", "Express", "MongoDB"],
+    image: "../public/pinterest.webp",
     link: "#",
   },
   {
@@ -14,7 +14,7 @@ const projects: ProjectItem[] = [
     description:
       "A personal profile dashboard built using GraphQL and React for optimized queries and real-time updates.",
     tags: ["GraphQL", "React", "TypeScript"],
-    image: "/images/spotify-app.png", // optional, add your images here
+    image: "../public/pinterest.webp",
     link: "#",
   },
   {
@@ -22,7 +22,7 @@ const projects: ProjectItem[] = [
     description:
       "A developer-friendly theme for creating docs and help centers with Next.js.",
     tags: ["Next.js", "TailwindCSS"],
-    image: "/images/spotify-app.png", // optional, add your images here
+    image: "../public/pinterest.webp",
     link: "#",
   },
 ];
@@ -36,13 +36,13 @@ const Projects = () => {
           <div
             key={index}
             className="flex flex-col md:flex-row gap-4 bg-transparent p-4 rounded-lg hover:bg-[#5f6f910d] 
-            transition-colors duration-500 ease-in-out cursor-pointer"
+            transition-colors duration-500 ease-in-out cursor-pointer ml-[-16px]"
           >
             {project.image && (
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full md:w-32 h-24 object-cover rounded"
+                className="w-full md:w-42 h-30 object-cover rounded"
               />
             )}
             <div className="flex-1">

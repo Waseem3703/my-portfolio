@@ -5,21 +5,21 @@ const articles: BlogArticle[] = [
     year: "2024",
     title: "5 Common Accessibility Pitfalls and How to Avoid Them",
     description: "A guide for developers to ensure their websites are accessible for all users.",
-    image: "/images/accessibility.png",
+    image: "../public/pinterest.webp",
     link: "#",
   },
   {
     year: "2023",
     title: "Integrating AppSec Securely with WordPress + Tailwind",
     description: "Tips on making WordPress safer using modern tools and workflows.",
-    image: "/images/appsec.png",
+    image: "../public/pinterest.webp",
     link: "#",
   },
   {
     year: "2019",
     title: "Building a Headless Mobile App CMS From Scratch",
     description: "How I created a CMS that powers native mobile apps using Node.js.",
-    image: "/images/headless-cms.png",
+    image: "../public/pinterest.webp",
     link: "#",
   },
 ];
@@ -32,7 +32,7 @@ const Articles = () => {
         {articles.map((article, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row gap-4 bg-[#112240] p-4 rounded-lg hover:shadow-lg transition-shadow"
+            className="ml-[-14px] flex flex-col md:flex-row gap-4 bg-[#112240] p-4 rounded-lg hover:shadow-lg transition-shadow"
           >
             {article.image && (
               <img

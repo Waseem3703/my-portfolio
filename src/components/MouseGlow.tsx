@@ -16,7 +16,7 @@ const MouseGlow = () => {
   className="fixed top-0 left-0 w-full h-full pointer-events-none z-0"
 >
   <div
-    className="absolute w-64 h-64 bg-[#67679264] rounded-full blur-3xl opacity-30 mix-blend-screen transition-transform duration-100"
+    className="absolute w-64 h-64 bg-[#ffffff64] rounded-full blur-3xl opacity-30 mix-blend-screen transition-transform duration-100"
     style={{
       transform: `translate(${position.x - 128}px, ${position.y - 128}px)`,
     }}

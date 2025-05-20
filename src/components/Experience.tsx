@@ -7,7 +7,7 @@ const experiences: ExperienceItem[] = [
     period: "2022 — Present",
     description: "Lead front-end initiatives and accessibility efforts. Built robust UI systems using React, Typescript, and Tailwind.",
     tags: ["React", "TypeScript", "Accessibility", "TailwindCSS"],
-    image: "/images/spotify-app.png",
+    image: "../public/pinterest.webp",
     link: "#",
   },
   {
@@ -16,7 +16,7 @@ const experiences: ExperienceItem[] = [
     period: "2021 — 2022",
     description: "Worked on Apple.com to improve layout systems and design efficiency. Built reusable front-end components.",
     tags: ["JavaScript", "HTML", "CSS", "Web Performance"],
-    image: "/images/spotify-app.png",
+    image: "../public/pinterest.webp",
     link: "#",
   },
   {
@@ -25,7 +25,7 @@ const experiences: ExperienceItem[] = [
     period: "2020 — 2021",
     description: "Helped refactor mobile features using React Native and maintained internal UI frameworks.",
     tags: ["React Native", "Component Design", "Testing"],
-    image: "/images/spotify-app.png",
+    image: "../public/pinterest.webp",
     link: "#",
   },
 ];
@@ -40,19 +40,19 @@ const Experience = () => {
     >
       <h2 className="text-3xl font-bold text-white mb-8">Experience</h2>
 
-      <div className="space-y-10">
+      <div className="space-y-5">
         {experiences.map((exp, index) => (
           <div
             key={index}
             className="hover:bg-[#111F44] p-6 rounded-md transition-colors duration-500 ease-in-out
-             cursor-pointer shadow-sm"
+             cursor-pointer shadow-sm ml-[-23px]"
           >
             <div className="flex flex-col md:flex-row md:items-center gap-4">
               {exp.image && (
                 <img
                   src={exp.image}
                   alt={exp.title}
-                  className="w-full md:w-28 h-20 object-cover rounded-md"
+                  className="w-full md:w-40 h-28 object-cover rounded-md"
                 />
               )}
               <div>
