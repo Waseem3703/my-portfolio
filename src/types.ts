@@ -10,7 +10,7 @@ export type ExperienceItem = {
   export type ProjectItem = {
     title: string;
     description: string;
-    image?: string; // optional thumbnail
+    image?: string; 
     link?: string;
     tags: string[];
   };

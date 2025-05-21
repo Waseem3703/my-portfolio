@@ -10,18 +10,18 @@ const projects: ProjectItem[] = [
     link: "#",
   },
   {
-    title: "GraphQL Profile Viewer",
+    title: "Country Information System",
     description:
-      "A personal profile dashboard built using GraphQL and React for optimized queries and real-time updates.",
-    tags: ["GraphQL", "React", "TypeScript"],
-    image: "../public/pinterest.webp",
+      "A simple website which provide information about different country population, best things etc.",
+    tags: ["Tailwind", "React", "TypeScript"],
+    image: "../public/country.jpg",
     link: "#",
   },
   {
-    title: "HelpKit Theme",
+    title: "Landing Page for Sales/Booking",
     description:
-      "A developer-friendly theme for creating docs and help centers with Next.js.",
-    tags: ["Next.js", "TailwindCSS"],
+      "This website is the landing page for the product sales online with Wordpress, JavaScript",
+    tags: ["WordPress", "JavaScript", "CSS"],
     image: "../public/pinterest.webp",
     link: "#",
   },
@@ -50,9 +50,7 @@ const Projects = () => {
               <h3 className="text-lg font-semibold text-white">
                 {project.title}
               </h3>
-              <p className="text-gray-400 text-sm mt-1">
-                {project.description}
-              </p>
+              <p className="text-gray-400 mt-1">{project.description}</p>
               {project.link && (
                 <a
                   href={project.link}
@@ -61,11 +59,11 @@ const Projects = () => {
                   rel="noopener noreferrer"
                 ></a>
               )}
-              <div className="flex flex-wrap gap-2 mt-3">
+              <div className="flex flex-wrap gap-2 mt-2">
                 {project.tags.map((tag, i) => (
                   <span
                     key={i}
-                    className="bg-[#5f6f9127] text-sm px-2 py-1 rounded hover:bg-[#5f6f914a] 
+                    className="bg-[#5f6f9127] text-sm px-2 py-1 mt-[-15px] rounded hover:bg-[#5f6f914a] 
                     transitions-colors duration-300 ease-in-out"
                   >
                     {tag}
