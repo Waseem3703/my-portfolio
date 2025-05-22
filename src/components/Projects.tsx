@@ -22,7 +22,7 @@ const projects: ProjectItem[] = [
     description:
       "This website is the landing page for the product sales online with Wordpress, JavaScript",
     tags: ["WordPress", "JavaScript", "CSS"],
-    image: "../public/pinterest.webp",
+    image: "../public/Landing-page-Online-shopping.jpg",
     link: "#",
   },
 ];

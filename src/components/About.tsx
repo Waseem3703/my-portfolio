@@ -2,18 +2,18 @@ const About = () => {
   return (
     <section
       id="about"
-      className="mb-16 text-gray-300 px-1 sm:px-6 lg:px-0"
+       className="mr-2 sm:mr-2 md:mr-1 lg:mr-24 mb-10 text-gray-300 px-1 sm:px-6 lg:px-0"
       style={{
         fontFamily: `__inter_20b187, __inter_Fallback_20b187, ui-sans-serif, system-ui, -apple-system,
          BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"`,
       }}
     >
-      <h2 className="text-lg sm:text-xl font-semibold text-white mt-5 sm:mt-20 mb-6 tracking-wide uppercase">
+      <h2 className="text-lg sm:text-xl font-semibold text-white mt-4 lg:opacity-0 mb-4 tracking-wide uppercase">
         About
       </h2>
 
-      <div className="space-y-5 text-[17px] sm:text-base leading-relaxed">
+        <div className="space-y-5 text-[17px] sm:text-[18px] md:text-[17px] leading-relaxed">
         <p>
           I’m a developer passionate about crafting accessible, pixel-perfect
           user interfaces that blend thoughtful design with robust engineering.
