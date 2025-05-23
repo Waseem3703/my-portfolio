@@ -6,7 +6,7 @@ const projects: ProjectItem[] = [
     description:
       "A pinterest Clone, which is full stack. Built with React, Node, MongoDB, Express and Tailwind.",
     tags: ["React", "Node", "Tailwind", "Express", "MongoDB"],
-    image: "../public/pinterest.webp",
+    image: "images/pinterest.webp",
     link: "#",
   },
   {
@@ -14,7 +14,7 @@ const projects: ProjectItem[] = [
     description:
       "A simple website which provide information about different country population, best things etc.",
     tags: ["Tailwind", "React", "TypeScript"],
-    image: "../public/country.jpg",
+    image: "images/country.jpg",
     link: "#",
   },
   {
@@ -22,7 +22,7 @@ const projects: ProjectItem[] = [
     description:
       "This website is the landing page for the product sales online with Wordpress, JavaScript",
     tags: ["WordPress", "JavaScript", "CSS"],
-    image: "../public/Landing-page-Online-shopping.jpg",
+    image: "images/Landing-page-Online-shopping.jpg",
     link: "#",
   },
 ];
