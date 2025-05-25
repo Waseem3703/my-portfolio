@@ -9,7 +9,7 @@ const experiences: ExperienceItem[] = [
     description:
       "Lead front-end initiatives and accessibility efforts. Built robust UI systems using React, Typescript, and Tailwind.",
     tags: ["React", "Node", "Tailwind", "Express", "MongoDB"],
-    image: "images/pinterest.webp",
+    image: "../public/pinterest.webp",
     link: "#",
   },
   {
@@ -19,7 +19,7 @@ const experiences: ExperienceItem[] = [
     description:
       "Developed Country Info App using React.js, JavaScript, and CSS, allowing users to search for countries and view detail",
     tags: ["JavaScript", "React", "CSS", "TailwindCSS"],
-    image: "images/pinterest.webp",
+    image: "../public/country.webp",
     link: "#",
   },
   {
@@ -29,7 +29,7 @@ const experiences: ExperienceItem[] = [
     description:
       "This website is the landing page for the product sales online with Wordpress, JavaScript",
     tags: ["WordPress", "JavaScript", "CSS"],
-    image: "images/pinterest.webp",
+    image: "../public/pinterest.webp",
     link: "#",
   },
 ];

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "pinterest-clone",
+    "title": "Build a Pinterest Clone App",
+    "description": "A full-stack Pinterest-inspired web application where users can upload, save, and explore visual content.",
+    "details": "Built using the MERN stack, the app mimics Pinterest's functionality and layout. It includes user authentication, pin creation, category filtering, and infinite scroll for a seamless experience.",
+    "features": [
+      "User Authentication",
+      "Upload & Save Pins",
+      "Infinite Scroll",
+      "Responsive Masonry Grid"
+    ],
+    "tags": ["React", "Node", "Tailwind", "Express", "MongoDB"],
+    "image": "/images/pinterest.webp",
+    "screenshots": [
+      "/images/pinterest-1.png",
+      "/images/pinterest-2.png",
+      "/images/pinterest-3.png"
+    ]
+  },
+  {
+    "id": "country-info",
+    "title": "Country Information System",
+    "description": "Displays real-time information about countries using REST APIs with a dark/light mode.",
+    "details": "The app fetches data from REST Countries API and provides search and filter options, accessible and mobile-friendly.",
+    "features": [
+      "Search by Country",
+      "Filter by Region",
+      "Dark/Light Theme",
+      "Responsive UI"
+    ],
+    "tags": ["React", "TypeScript", "Tailwind"],
+    "image": "/images/country.jpg",
+    "screenshots": []
+  },
+  {
+    "id": "landing-page",
+    "title": "Landing Page for Sales/Booking",
+    "description": "A landing page designed for product sales and booking services. Developed using WordPress with JavaScript enhancements for user interaction and product showcasing.",
+    "features": [
+      "Custom WordPress Theme",
+      "Interactive Elements with JS",
+      "Optimized for Conversions",
+      "SEO-Friendly Layout"
+    ],
+    "tags": ["WordPress", "JavaScript", "CSS"],
+    "image": "/images/Landing-page-Online-shopping.jpg"
+  }
+]

@@ -1,7 +1,9 @@
 import type { ProjectItem } from "../types";
+import { Link } from "react-router-dom";
 
 const projects: ProjectItem[] = [
   {
+    id: "pinterest-clone",
     title: "Build a Pintrest Clone App",
     description:
       "A pinterest Clone, which is full stack. Built with React, Node, MongoDB, Express and Tailwind.",
@@ -10,6 +12,7 @@ const projects: ProjectItem[] = [
     link: "#",
   },
   {
+    id: "country-info",
     title: "Country Information System",
     description:
       "A simple website which provide information about different country population, best things etc.",
@@ -18,6 +21,7 @@ const projects: ProjectItem[] = [
     link: "#",
   },
   {
+    id: "landing-page",
     title: "Landing Page for Sales/Booking",
     description:
       "This website is the landing page for the product sales online with Wordpress, JavaScript",
@@ -33,7 +37,7 @@ const Projects = () => {
       <h2 className="text-2xl font-semibold text-white mb-6">Projects</h2>
       <div className="space-y-6">
         {projects.map((project, index) => (
-          <div
+          <Link to={`/project/${project.id}`} key={project.id}> <div
             key={index}
             className="flex flex-col md:flex-row gap-4 bg-transparent p-4 rounded-lg hover:bg-[#5f6f910d] 
             transition-colors duration-500 ease-in-out cursor-pointer ml-[-16px]"
@@ -71,7 +75,7 @@ const Projects = () => {
                 ))}
               </div>
             </div>
-          </div>
+          </div> </Link>
         ))}
       </div>
     </section>

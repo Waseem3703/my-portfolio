@@ -8,6 +8,7 @@ export type ExperienceItem = {
     link?: string;
   };
   export type ProjectItem = {
+    id: string;
     title: string;
     description: string;
     image?: string; 

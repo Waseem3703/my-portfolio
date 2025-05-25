@@ -2,7 +2,7 @@ const About = () => {
   return (
     <section
       id="about"
-       className="mr-2 sm:mr-2 md:mr-1 lg:mr-24 mb-10 text-gray-300 px-1 sm:px-6 lg:px-0"
+      className="mr-2 sm:mr-2 md:mr-1 lg:mr-24 mb-10 text-gray-300 px-1 sm:px-6 lg:px-0"
       style={{
         fontFamily: `__inter_20b187, __inter_Fallback_20b187, ui-sans-serif, system-ui, -apple-system,
          BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
@@ -13,34 +13,33 @@ const About = () => {
         About
       </h2>
 
-        <div className="space-y-5 text-[17px] sm:text-[18px] md:text-[17px] leading-relaxed">
+      <div className="space-y-5 text-[17px] sm:text-[18px] md:text-[17px] leading-relaxed">
         <p>
-          I’m a developer passionate about crafting accessible, pixel-perfect
-          user interfaces that blend thoughtful design with robust engineering.
-          My favorite work lies at the intersection of design and development,
-          creating experiences that not only look great but are meticulously
-          built for performance and usability.
+          I'm a self-employed Frontend Developer with a passion for crafting
+          clean, responsive, and accessible web interfaces. I specialize in
+          building intuitive and scalable user experiences using modern
+          technologies like React.js and Tailwind CSS.
         </p>
 
         <p>
-          Currently, I'm a Senior Front-End Engineer at Klaviyo, specializing in
-          accessibility. I contribute to the creation and maintenance of UI
-          components that power Klaviyo’s frontend, ensuring our platform meets
-          web accessibility standards and best practices to deliver an inclusive
-          user experience.
+          My expertise includes HTML5, CSS3, JavaScript, React.js, Tailwind CSS,
+          Responsive Web Design, Front-End Development, Git, GitHub, and
+          WordPress. I also have experience in full-stack development using
+          Node.js, Express.js, MongoDB, and the MERN Stack.
         </p>
 
         <p>
-          In the past, I've had the opportunity to develop software across a
-          variety of settings — from advertising agencies and large corporations
-          to start-ups and small digital product studios. Additionally, I also
-          released a comprehensive video course a few years ago, guiding learners
-          through building a web app with the Spotify API.
+          I actively integrate RESTful APIs, optimize website performance,
+          ensure cross-browser compatibility, and transform designs from Figma
+          into fully functional websites. Tools like Postman, Docker, Firebase,
+          and debugging utilities are part of my regular workflow.
         </p>
 
         <p>
-          In my spare time, I’m usually climbing, reading, hanging out with my
-          wife and two cats, or running around Hyrule searching for Korok seeds.
+          While I work independently, I'm constantly learning and evolving my
+          skills. I'm currently focused on delivering high-quality freelance
+          projects and honing my craft through continuous development and
+          real-world application.
         </p>
       </div>
     </section>
