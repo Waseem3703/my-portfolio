@@ -1,9 +1,13 @@
 import { useParams, Link } from "react-router-dom";
 import projects from "../assets/data/project.json";
+import { useState } from "react";
+import { RxCross2 } from "react-icons/rx";
 
 const ProjectDetail = () => {
   const { id } = useParams();
   const project = projects.find((proj) => proj.id === id);
+
+  const [isOpen, setIsOpen] = useState(false);
 
   if (!project) {
     return (
@@ -13,8 +17,8 @@ const ProjectDetail = () => {
     );
   }
 
-  return (
-    <div className="bg-[#0d1938] min-h-screen px-6 py-10 text-gray-300 font-sans">
+  return ( <>
+      <div className="bg-[#0d1938] min-h-screen px-6 py-10 text-gray-300 font-sans">
       <div className="max-w-5xl mx-auto">
         <Link
           to="/#projects"
@@ -24,12 +28,6 @@ const ProjectDetail = () => {
         </Link>
 
         <h1 className="text-3xl font-bold text-white mb-4">{project.title}</h1>
-
-        <img
-          src={project.image}
-          alt={project.title}
-          className="w-full max-w-4xl h-auto rounded-lg mb-6 shadow-lg"
-        />
 
         <p className="text-lg mb-4 leading-relaxed">{project.description}</p>
 
@@ -68,11 +66,12 @@ const ProjectDetail = () => {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {project.screenshots.map((src, idx) => (
-                <img
+                <img 
                   key={idx}
                   src={src}
                   alt={`Screenshot ${idx + 1}`}
-                  className="rounded-lg shadow-md border border-gray-700"
+                  className="rounded-lg shadow-md border border-gray-700 h-60"
+                  onClick={()=> setIsOpen(true)}
                 />
               ))}
             </div>
@@ -80,7 +79,23 @@ const ProjectDetail = () => {
         )}
       </div>
     </div>
-  );
+    {isOpen && (
+         <div className="fixed inset-0 bg-black bg-opacity-20 flex items-center justify-center z-50">
+          <div className="bg-[#1c2b4d] p-4 rounded-lg w-1/2 relative shadow">
+        {/* {project.screenshots.map((src, idx) => ( */}
+                <img 
+                  // key={idx}
+                  src={"../images/pinterest-1.png"}
+                  alt={`Screenshot`}
+                  />
+                      <button className="text-2xl" onClick={() => setIsOpen(false)}>< RxCross2 /></button>
+
+
+        {/* ))}; */}
+      </div>
+      </div>
+    )}
+ </> );
 };
 
 export default ProjectDetail;

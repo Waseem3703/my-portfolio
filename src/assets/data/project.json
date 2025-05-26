@@ -11,7 +11,7 @@
       "Responsive Masonry Grid"
     ],
     "tags": ["React", "Node", "Tailwind", "Express", "MongoDB"],
-    "image": "/images/pinterest.webp",
+    "image": "/pinterest.webp",
     "screenshots": [
       "/images/pinterest-1.png",
       "/images/pinterest-2.png",
@@ -30,7 +30,7 @@
       "Responsive UI"
     ],
     "tags": ["React", "TypeScript", "Tailwind"],
-    "image": "/images/country.jpg",
+    "image": "/country.jpg",
     "screenshots": []
   },
   {
@@ -44,6 +44,6 @@
       "SEO-Friendly Layout"
     ],
     "tags": ["WordPress", "JavaScript", "CSS"],
-    "image": "/images/Landing-page-Online-shopping.jpg"
+    "image": "/Landing-page-Online-shopping.jpg"
   }
 ]
