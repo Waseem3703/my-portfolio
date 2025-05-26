@@ -1,38 +1,6 @@
-import type { ExperienceItem } from "../types";
+import experiences from "../assets/data/experiences.json";
 import { MdArrowOutward } from "react-icons/md";
 
-const experiences: ExperienceItem[] = [
-  {
-    title: "Full Stack Developer",
-    company: "Self",
-    period: "2025 — PRESENT",
-    description:
-      "Lead front-end initiatives and accessibility efforts. Built robust UI systems using React, Typescript, and Tailwind.",
-    tags: ["React", "Node", "Tailwind", "Express", "MongoDB"],
-    image: "../public/pinterest.webp",
-    link: "#",
-  },
-  {
-    title: "Frontend Developer",
-    company: "Self",
-    period: "2025 — 2025",
-    description:
-      "Developed Country Info App using React.js, JavaScript, and CSS, allowing users to search for countries and view detail",
-    tags: ["JavaScript", "React", "CSS", "TailwindCSS"],
-    image: "../public/country.webp",
-    link: "#",
-  },
-  {
-    title: "WordPress",
-    company: "Self",
-    period: "2024 - 2024",
-    description:
-      "This website is the landing page for the product sales online with Wordpress, JavaScript",
-    tags: ["WordPress", "JavaScript", "CSS"],
-    image: "../public/pinterest.webp",
-    link: "#",
-  },
-];
 
 const Experience = () => {
   return (

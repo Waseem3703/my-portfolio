@@ -1,35 +1,5 @@
-import type { ProjectItem } from "../types";
 import { Link } from "react-router-dom";
-
-const projects: ProjectItem[] = [
-  {
-    id: "pinterest-clone",
-    title: "Build a Pintrest Clone App",
-    description:
-      "A pinterest Clone, which is full stack. Built with React, Node, MongoDB, Express and Tailwind.",
-    tags: ["React", "Node", "Tailwind", "Express", "MongoDB"],
-    image: "images/pinterest.webp",
-    link: "#",
-  },
-  {
-    id: "country-info",
-    title: "Country Information System",
-    description:
-      "A simple website which provide information about different country population, best things etc.",
-    tags: ["Tailwind", "React", "TypeScript"],
-    image: "images/country.jpg",
-    link: "#",
-  },
-  {
-    id: "landing-page",
-    title: "Landing Page for Sales/Booking",
-    description:
-      "This website is the landing page for the product sales online with Wordpress, JavaScript",
-    tags: ["WordPress", "JavaScript", "CSS"],
-    image: "images/Landing-page-Online-shopping.jpg",
-    link: "#",
-  },
-];
+import projects from "../assets/data/projects.json"
 
 const Projects = () => {
   return (

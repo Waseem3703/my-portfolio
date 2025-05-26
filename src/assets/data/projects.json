@@ -1,0 +1,29 @@
+ [
+  {
+    "id": "pinterest-clone",
+    "title": "Build a Pintrest Clone App",
+    "description":
+      "A pinterest Clone, which is full stack. Built with React, Node, MongoDB, Express and Tailwind.",
+    "tags": ["React", "Node", "Tailwind", "Express", "MongoDB"],
+    "image": "/pinterest.webp",
+    "link": "#"
+  },
+  {
+    "id": "country-info",
+    "title": "Country Information System",
+    "description":
+      "A simple website which provide information about different country population, best things etc.",
+    "tags": ["Tailwind", "React", "TypeScript"],
+    "image": "/country.jpg",
+    "link": "#"
+  },
+  {
+    "id": "landing-page",
+    "title": "Landing Page for Sales/Booking",
+    "description":
+      "This website is the landing page for the product sales online with Wordpress, JavaScript",
+    "tags": ["WordPress", "JavaScript", "CSS"],
+    "image": "/Landing-page-Online-shopping.jpg",
+    "link": "#"
+  }
+]
