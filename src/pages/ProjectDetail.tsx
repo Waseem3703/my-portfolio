@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
-import projects from "../assets/data/project.json";
-import { useState } from "react";
+import projects from "../assets/data/ProjectDetail.json";
+import { useState, type JSXElementConstructor, type Key, type ReactElement, type ReactNode, type ReactPortal } from "react";
 import { RxCross2 } from "react-icons/rx";
 
 const ProjectDetail = () => {
@@ -42,16 +42,16 @@ const ProjectDetail = () => {
             Key Features
           </h2>
           <ul className="list-disc list-inside space-y-1">
-            {project.features?.map((feature, idx) => (
-              <li key={idx}>{feature}</li>
+            {project.features?.map((feature: string , id: Key) => (
+              <li key={id}>{feature}</li>
             ))}
           </ul>
         </div>
 
         <div className="flex flex-wrap gap-3 mb-8">
-          {project.tags.map((tag, idx) => (
+          {project.tags.map((tag: string, id: Key) => (
             <span
-              key={idx}
+              key={id}
               className="bg-cyan-700/40 text-white px-3 py-1 rounded-full text-sm border border-cyan-400"
             >
               {tag}

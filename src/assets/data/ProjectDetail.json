@@ -1,0 +1,57 @@
+[
+  {
+    "id": "pinterest-clone",
+    "title": "Pinterest Clone App",
+    "description": "A full-stack Pinterest clone built with React, Node.js, Express, MongoDB, and Tailwind CSS. Users can create boards, upload images, and explore others' pins.",
+    "details": "This clone app mimics core features of Pinterest such as creating pins, saving pins to boards, user authentication, and responsive masonry layouts. It includes secure backend APIs and image uploads using Cloudinary.",
+    "tags": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "features": [
+      "User authentication and login system",
+      "Image upload via Cloudinary",
+      "Masonry-style responsive layout",
+      "Pin creation and board organization",
+      "Real-time search functionality"
+    ],
+    "screenshots": [
+      "/images/pinterest-1.png",
+      "/images/pinterest-2.png",
+      "/images/pinterest-3.png"
+    ]
+  },
+  {
+    "id": "country-info",
+    "title": "Country Information System",
+    "description": "An interactive React-based application that displays country data fetched from a public REST API.",
+    "details": "This project enables users to search for any country and view detailed information including population, flag, capital, languages, and more. It uses React Hooks, Context API, and responsive design.",
+    "tags": ["React", "TypeScript", "REST API", "Tailwind CSS"],
+    "features": [
+      "Search and filter countries",
+      "Displays population, region, and languages",
+      "REST Countries API integration",
+      "Dark mode toggle",
+      "Responsive design with Tailwind CSS"
+    ],
+    "screenshots": [
+      "/images/screenshots/country-search.png",
+      "/images/screenshots/country-detail.png"
+    ]
+  },
+  {
+    "id": "landing-page",
+    "title": "Landing Page for Product Sales",
+    "description": "A modern landing page developed using WordPress and custom JavaScript/CSS for product promotions.",
+    "details": "This single-page website is optimized for SEO and built for product marketing campaigns. It includes call-to-action sections, contact forms, animations, and a mobile-first layout.",
+    "tags": ["WordPress", "JavaScript", "CSS", "SEO"],
+    "features": [
+      "Hero banner with CTA",
+      "Animated scroll sections",
+      "Mobile responsive layout",
+      "Integrated contact form",
+      "Optimized for SEO"
+    ],
+    "screenshots": [
+      "/images/screenshots/landing-desktop.png",
+      "/images/screenshots/landing-mobile.png"
+    ]
+  }
+]
