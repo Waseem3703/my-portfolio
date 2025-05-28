@@ -13,9 +13,12 @@
       "Real-time search functionality"
     ],
     "screenshots": [
-      "/images/pinterest-1.png",
-      "/images/pinterest-2.png",
-      "/images/pinterest-3.png"
+      "/images/pinterest/pinterest-1.png",
+      "/images/pinterest/pinterest-2.png",
+      "/images/pinterest/pinterest-3.png",
+      "/images/pinterest/pinterest-4.png",
+      "/images/pinterest/pinterest-5.png",
+      "/images/pinterest/pinterest-6.png"
     ]
   },
   {
@@ -32,8 +35,9 @@
       "Responsive design with Tailwind CSS"
     ],
     "screenshots": [
-      "/images/screenshots/country-search.png",
-      "/images/screenshots/country-detail.png"
+      "/images/country/country-1.png",
+      "/images/country//country-2.png",
+      "/images/country//country-3.png"
     ]
   },
   {
@@ -50,8 +54,7 @@
       "Optimized for SEO"
     ],
     "screenshots": [
-      "/images/screenshots/landing-desktop.png",
-      "/images/screenshots/landing-mobile.png"
+      "/images/landing-page/landing-page-1.png"
     ]
   }
 ]
