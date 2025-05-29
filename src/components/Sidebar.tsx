@@ -96,7 +96,7 @@ const Sidebar = ({ isMobile = false }: SidebarProps) => {
         <a href="https://linkedin.com/in/waseem3703" target="_blank" rel="noreferrer">
           <FaLinkedin className="text-[#96a6c9] text-2xl md:text-3xl hover:text-white transition-colors duration-100" />
         </a>
-        <a href="#" target="_blank" rel="noreferrer">
+        <a href="https://codepen.io/Waseem3703/" target="_blank" rel="noreferrer">
           <FaCodepen className="text-[#96a6c9] text-2xl md:text-3xl hover:text-white transition-colors duration-100" />
         </a>
         <a href="#" target="_blank" rel="noreferrer">
