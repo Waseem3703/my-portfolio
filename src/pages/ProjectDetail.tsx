@@ -107,7 +107,7 @@ const ProjectDetail = () => {
             </button>
             <img
               src={selectedImage}
-              alt="Selected Screenshot"
+              alt={`${project.title} screenshots`}
               className="w-full h-auto rounded-lg"
             />
           </div>

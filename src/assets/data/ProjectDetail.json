@@ -2,15 +2,19 @@
   {
     "id": "pinterest-clone",
     "title": "Pinterest Clone App",
-    "description": "A full-stack Pinterest clone built with React, Node.js, Express, MongoDB, and Tailwind CSS. Users can create boards, upload images, and explore others' pins.",
-    "details": "This clone app mimics core features of Pinterest such as creating pins, saving pins to boards, user authentication, and responsive masonry layouts. It includes secure backend APIs and image uploads using Cloudinary.",
-    "tags": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "description": "A full-featured Pinterest-like web application where users can explore, create, and save visual content. Built using React, Node.js, Express, MongoDB, and Tailwind CSS. The app supports user authentication, image uploads, and interactive UI components.",
+    "details": "This Pinterest clone replicates the essential functionalities of the original platform, including creating pins, browsing categorized boards, user registration/login, and storing user preferences. Images are handled via Cloudinary, with API security, MongoDB data models, and responsive design using Tailwind CSS. The project is structured with a scalable backend and clean component-based frontend architecture.",
+    "tags": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Cloudinary", "JWT", "REST API", "Responsive UI", "MERN Stack"],
     "features": [
-      "User authentication and login system",
-      "Image upload via Cloudinary",
-      "Masonry-style responsive layout",
-      "Pin creation and board organization",
-      "Real-time search functionality"
+      "Full user authentication using JWT and bcrypt",
+      "Pin creation with title, description, and image uploads",
+      "Drag-and-drop masonry-style layout for displaying pins",
+      "Board creation for organizing pins",
+      "Image hosting using Cloudinary with secure API",
+      "Profile page to view user's boards and saved pins",
+      "Real-time search and filtering by category",
+      "Responsive and mobile-friendly layout",
+      "Error handling and loading states for better UX"
     ],
     "screenshots": [
       "/images/pinterest/pinterest-1.png",
@@ -24,34 +28,42 @@
   {
     "id": "country-info",
     "title": "Country Information System",
-    "description": "An interactive React-based application that displays country data fetched from a public REST API.",
-    "details": "This project enables users to search for any country and view detailed information including population, flag, capital, languages, and more. It uses React Hooks, Context API, and responsive design.",
-    "tags": ["React", "TypeScript", "REST API", "Tailwind CSS"],
+    "description": "An informative and responsive web app that displays detailed data about countries across the globe. Built with React, TypeScript, REST Countries API, and styled using Tailwind CSS. Designed for simplicity, speed, and clean user interface.",
+    "details": "The Country Info System provides users with a searchable list of countries and dynamically loads content using REST Countries API. It supports dark/light mode, detailed view for each country including flags, population, maps, subregions, and multilingual data. Utilizes TypeScript for better development experience and safer component logic. Designed to be lightweight and SEO-friendly.",
+    "tags": ["React", "TypeScript", "Tailwind CSS", "REST API", "Responsive Design", "Dark Mode", "Context API", "Hooks", "Client-Side Routing"],
     "features": [
-      "Search and filter countries",
-      "Displays population, region, and languages",
-      "REST Countries API integration",
-      "Dark mode toggle",
-      "Responsive design with Tailwind CSS"
+      "Live country search with auto filtering",
+      "REST API integration to fetch country data",
+      "Display of flags, capital, population, currency, and languages",
+      "Dark/light theme toggle using Context API",
+      "Type-safe React components using TypeScript",
+      "Clean and minimal UI with responsive design",
+      "Single-page country detail view with back navigation",
+      "Mobile-optimized interface",
+      "Reusable card and layout components"
     ],
     "screenshots": [
       "/images/country/country-1.png",
-      "/images/country//country-2.png",
-      "/images/country//country-3.png"
+      "/images/country/country-2.png",
+      "/images/country/country-3.png"
     ]
   },
   {
     "id": "landing-page",
     "title": "Landing Page for Product Sales",
-    "description": "A modern landing page developed using WordPress and custom JavaScript/CSS for product promotions.",
-    "details": "This single-page website is optimized for SEO and built for product marketing campaigns. It includes call-to-action sections, contact forms, animations, and a mobile-first layout.",
-    "tags": ["WordPress", "JavaScript", "CSS", "SEO"],
+    "description": "A sleek, modern landing page for showcasing and promoting products or services. Developed with WordPress, JavaScript, and CSS. Built for speed, conversion, and accessibility. Includes responsive design and marketing elements.",
+    "details": "This project is focused on marketing and conversions. It includes multiple call-to-action areas, testimonial sliders, product banners, FAQs, and contact form integration. Built with WordPress’s customizer and enhanced with custom JavaScript/CSS animations. Perfect for campaign-specific product sales. Optimized images, SEO meta tags, and accessibility compliance included for better reach.",
+    "tags": ["WordPress", "JavaScript", "CSS", "HTML5", "Responsive Design", "SEO Optimization", "Conversion Focused", "Contact Forms", "Scroll Animations", "Accessibility"],
     "features": [
-      "Hero banner with CTA",
-      "Animated scroll sections",
-      "Mobile responsive layout",
-      "Integrated contact form",
-      "Optimized for SEO"
+      "Hero section with attention-grabbing visuals",
+      "Call-to-action buttons with smooth scrolling",
+      "Sticky navigation bar and responsive sections",
+      "Integrated WordPress forms with validation",
+      "Lightweight CSS animations and effects",
+      "Fully mobile-first design",
+      "SEO-optimized metadata and fast page load",
+      "Section for customer testimonials",
+      "Social media links and newsletter signup"
     ],
     "screenshots": [
       "/images/landing-page/landing-page-1.png"

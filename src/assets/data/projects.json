@@ -1,9 +1,8 @@
- [
+[
   {
     "id": "pinterest-clone",
-    "title": "Build a Pintrest Clone App",
-    "description":
-      "A pinterest Clone, which is full stack. Built with React, Node, MongoDB, Express and Tailwind.",
+    "title": "Build a Pinterest Clone App",
+    "description": "A full-stack Pinterest-like app with user login, pin uploads, and image boards. Built using React, Node.js, Express, MongoDB, and styled with Tailwind CSS.",
     "tags": ["React", "Node", "Tailwind", "Express", "MongoDB"],
     "image": "/pinterest.webp",
     "link": "#"
@@ -11,8 +10,7 @@
   {
     "id": "country-info",
     "title": "Country Information System",
-    "description":
-      "A simple website which provide information about different country population, best things etc.",
+    "description": "A responsive app showing population, language, and region details of countries. Built with React, TypeScript, Tailwind CSS, and a public REST API.",
     "tags": ["Tailwind", "React", "TypeScript"],
     "image": "/country.jpg",
     "link": "#"
@@ -20,8 +18,7 @@
   {
     "id": "landing-page",
     "title": "Landing Page for Sales/Booking",
-    "description":
-      "This website is the landing page for the product sales online with Wordpress, JavaScript",
+    "description": "A responsive sales landing page built with WordPress, JavaScript, and CSS. Optimized for mobile devices, fast loading, and SEO-friendly layout.",
     "tags": ["WordPress", "JavaScript", "CSS"],
     "image": "/Landing-page-Online-shopping.jpg",
     "link": "#"

@@ -38,7 +38,7 @@ const Articles = () => {
               <img
                 src={article.image}
                 alt={article.title}
-                className="w-full md:w-32 h-24 object-cover rounded"
+                className="w-full md:w-35 md:h-25 mb:h-30 object-cover rounded"
               />
             )}
             <div className="flex-1">

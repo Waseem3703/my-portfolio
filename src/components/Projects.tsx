@@ -16,7 +16,7 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full md:w-42 h-30 object-cover rounded"
+                className="w-full md:w-35 md:h-25 mb:h-30 object-cover rounded"
               />
             )}
             <div className="flex-1">

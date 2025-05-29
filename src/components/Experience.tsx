@@ -1,7 +1,6 @@
 import experiences from "../assets/data/experiences.json";
 import { MdArrowOutward } from "react-icons/md";
 
-
 const Experience = () => {
   return (
     <section
@@ -25,9 +24,11 @@ const Experience = () => {
             <div className="relative z-10 flex flex-col md:flex-row md:items-center gap-6">
               <div>
                 <p className="text-[14px] text-slate-400">{exp.period}</p>
-                <h3 className="text-xl font-semibold text-slate-200 mt-1 lg:ml-30">
+                <h3 className="text-xl font-semibold group-hover:text-[#54D3D4] text-slate-200 mt-1 lg:ml-30 flex items-center flex-wrap">
                   {exp.title}
-                  <span className="text-slate-300 "> . {exp.company }<MdArrowOutward /> </span>
+                  <span>
+                    <MdArrowOutward className="group-hover:ml-2" />
+                  </span>
                 </h3>
                 <p className="text-slate-400 mt-2 text-[15px] lg:ml-30">
                   {exp.description}
