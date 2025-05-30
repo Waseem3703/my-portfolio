@@ -28,7 +28,6 @@ function MainLayout() {
           <About />
           <Experience />
           <Projects />
-          <Articles />
           <Footer />
         </main>
       </div>
